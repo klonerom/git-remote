@@ -1,0 +1,38 @@
+    1  ls
+    2  cd wcs
+    3  cd Documents/wc
+    4  cd Documents/wcs/
+    5  ls
+    6  cd ../..
+    7  cd Téléchargements/
+    8  cd test_git/
+    9  ls
+   10  ll
+   11  git init
+   12  ll
+   13  git add file1
+   14  git status
+   15  git commit file1
+   16  touch README.md
+   17  ll
+   18  git status
+   19  git add README.md
+   20  git status
+   21  git commit -m "Message (log) obligatoire qui définit PRÉCISÉMENT ce que contient ton commit."
+   22  git branch dev
+   23  git checkout dev
+   24  git branch
+   25  touch index.php
+   26  git add index.php
+   27  git status
+   28  git commit -m "index.php dans dev"
+   29  git checkout master
+   30  git status
+   31  git branch wcs
+   32  git chekout wcs
+   33  git checkout wcs
+   34  touch wild.php
+   35  git add wild.php
+   36  git status
+   37  git commit -m "ajout wild.php à la branche wcs"
+   38  history > git_history.txt
